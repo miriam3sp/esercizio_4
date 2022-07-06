@@ -4,9 +4,9 @@
 3. Visualize your robot running this trajectory in Rviz
 4. Publish the resulting trajectory on a topic in such a way that joint positions, velocities and accelerations are plotted in RQT in separate graphs and graphically verifies that the limits (of velocity and acceleration) are respected
 
-# Start the demo
+## Start the demo
 
-## How to run
+### How to run
 1.Build your space:
 catkin build smartsix_controller
 
@@ -22,5 +22,5 @@ roslaunch planning_pkg trajectory_plan.launch
 rosrun rqt_multiplot rqt_multiplot
 
 
-Referements:
+### Referements:
 https://ros-planning.github.io/moveit_tutorials/doc/move_group_interface/move_group_interface_tutorial.html
