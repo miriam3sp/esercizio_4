@@ -8,11 +8,11 @@
 
 ### How to run
 1. Build your space:
-catkin build smartsix_controller
+"catkin build smartsix_controller"
 
 2. Start the simulation of the Comau Smart-Six robot:
-source devel/setup.bash
-roslaunch smartsix_moveit_config demo_gazebo.launch
+"source devel/setup.bash"
+"roslaunch smartsix_moveit_config demo_gazebo.launch"
 
 3. Run the planner: 
 source devel/setup.bash
