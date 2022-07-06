@@ -8,17 +8,23 @@
 
 ### How to run
 1. Build your space:
-"catkin build smartsix_controller"
+
+catkin build smartsix_controller
 
 2. Start the simulation of the Comau Smart-Six robot:
-"source devel/setup.bash"
-"roslaunch smartsix_moveit_config demo_gazebo.launch"
+ 
+source devel/setup.bash
+
+roslaunch smartsix_moveit_config demo_gazebo.launch
 
 3. Run the planner: 
+
 source devel/setup.bash
+
 roslaunch planning_pkg trajectory_plan.launch
 
 4. Run rqt_multiplot (whit saved configuration):
+
 rosrun rqt_multiplot rqt_multiplot
 
 
