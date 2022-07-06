@@ -1,0 +1,8 @@
+<launch>
+
+  <arg name="debugger_attached" default="false"/>
+
+  <node name="circular_path" pkg="planning_pkg" type="circular_path" respawn="false" output="screen" unless="$(arg debugger_attached)">
+  </node>
+
+</launch> 
