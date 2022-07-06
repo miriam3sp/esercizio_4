@@ -1,10 +1,10 @@
-# esercizio_4
+#  Exercise_4
 1. Generates a circular path of the work area in front of the robot lying in the Y-Z plane with fixed orientation so that the flange is in the same plane
 2. Parameterize this path in time with a method of your choice (reusing existing time parameterization algorithms or coding your own), so that the speed and acceleration limits are respected
 3. Visualize your robot running this trajectory in Rviz
 4. Publish the resulting trajectory on a topic in such a way that joint positions, velocities and accelerations are plotted in RQT in separate graphs and graphically verifies that the limits (of velocity and acceleration) are respected
 
-## Start the demo
+# Start the demo
 
 ## How to run
 1.Build your space:
